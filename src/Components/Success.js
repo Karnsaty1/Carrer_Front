@@ -13,7 +13,7 @@ const Success = () => {
 
     const handleUpvote = (index) => {
         const updatedCards = [...filteredCards];
-        updatedCards[index].upvotes += 1;
+        updatedCards[index].upvotes= 1-updatedCards[index].upvotes;
         setFilteredCards(updatedCards);
     };
 

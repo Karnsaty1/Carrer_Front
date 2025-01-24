@@ -38,12 +38,11 @@ function App() {
 
 
         <Routes>
-          {/* Public Routes */}
+         
           <Route path="/" element={<Home />} />
           <Route path="/signUp/:id" element={<SignUp />} />
           <Route path="/logIn/:id" element={<LogIn />} />
 
-          {/* Protected Routes */}
           <Route path="/select/:id" element={<Alumni/>} />
           <Route path="/navbar/:id" element={<Navbar/>} />
           <Route path="/card/:id" element={<Success/>} />

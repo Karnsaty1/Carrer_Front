@@ -19,7 +19,7 @@ const SignUp = () => {
   });
 
   const [showOtp, setShowOtp] = useState(false);
-  const [otp, setOtp] = useState(['', '', '', '', '', '']); // OTP as an array, default is empty
+  const [otp, setOtp] = useState(['', '', '', '', '', '']); 
   const [error, setError] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 

@@ -26,7 +26,7 @@ const GetProfile = () => {
   const handleUpvote = (index) => {
     const updatedCards = [...cards];
     const currentUpvotes = updatedCards[index].upvotes || 0; 
-  updatedCards[index].upvotes = currentUpvotes + 1;
+  updatedCards[index].upvotes = 1-currentUpvotes;
     setCards(updatedCards);
   };
 
